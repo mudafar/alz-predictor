@@ -35,7 +35,10 @@ const predictions = predictor.predict()
 ```
 
 ## Examples
-- Prefetch data based on next user action prediction
+- Prefetch data based on next user action prediction:
+    - Online demo: https://mudafar.github.io/alz-predictor-prefetch-example/
+
+    - [Source code](https://github.com/mudafar/alz-predictor-prefetch-example)
 
 
 
