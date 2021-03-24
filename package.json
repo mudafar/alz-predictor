@@ -1,6 +1,6 @@
 {
   "name": "alz-predictor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript sequence prediction library, for building proactive and smart user interfaces",
   "main": "./src/index.js",
   "keywords": [
