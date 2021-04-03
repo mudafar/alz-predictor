@@ -1,6 +1,6 @@
 # ALZ predictor &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mudafar/alz-predictor/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/alz-predictor.svg?style=flat)](https://www.npmjs.com/package/alz-predictor)  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-ALZ predictor is a JavaScript library for symbols sequence prediction, based on Gopalratnam and Cook Active LeZi algorithm.
+ALZ predictor is a JavaScript library for symbols sequence prediction, based on **Gopalratnam and Cook Active LeZi algorithm**.
 
 
 * **AI:** ALZ predictor makes it possible to create proactive and smart UIs. Improve your application UX by adding a touch of artificial intelligence. Guess and prefetch required data to enhance performance. 
@@ -9,6 +9,21 @@ ALZ predictor is a JavaScript library for symbols sequence prediction, based on 
 
 * **Lightweight:** No dependencies.   
 
+## FAQ
+- Why **JavaScript** and **Frontend AI** at all? 
+   - No server-client latency
+   - Offline
+   - Privacy
+   - Cost
+   - [TensorFlow.js](https://www.tensorflow.org/js/) and [ONNX.JS](https://microsoft.github.io/onnxjs-demo/#/)
+
+- How to **save learning** data?
+   
+   Serialize and save to browser **localStorage**.
+
+- What is the difference with **Guess.js**?
+   
+    **Google Analytics** is **not** required for training.
 
 
 ## Installation
@@ -35,7 +50,7 @@ const predictions = predictor.predict()
 ```
 
 ## Examples
-- Prefetch data based on next user action prediction:
+- Next-page data predective prefetching:
     - Online demo: https://mudafar.github.io/alz-predictor-prefetch-example/
 
     - [Source code](https://github.com/mudafar/alz-predictor-prefetch-example)
